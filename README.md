@@ -22,7 +22,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Deployment
 
-The Website has bees deployed at Netlify and can be vistited with the following URL: https://prathamshalya.netlify.app/
+The Website has been deployed at Netlify and can be vistited with the following URL: https://prathamshalya.netlify.app/
 
 ## Learn More
 
