@@ -180,7 +180,7 @@ export const workExperience = [
         thumbnail: "/exp1.svg",
     },
     {
-        id: 3,
+        id: 2,
         title: "Problem Setting Contributor - CodeChef",
         desc: "Designed and Developed challenging algorithmic problems for competitive programming contests.",
         className: "md:col-span-2", // change to md:col-span-2
@@ -203,5 +203,10 @@ export const socialMedia = [
         id: 3,
         img: "/link.svg",
         link: "https://www.linkedin.com/in/pratham-shalya-a4801323b/"
+    },
+    {
+        id: 4,
+        img: "/dock.svg",
+        link: "https://hub.docker.com/u/prathamshalya"
     },
 ];
