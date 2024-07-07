@@ -72,6 +72,14 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
+        title: "CodeMonks - Online Coding Platform",
+        des: "Developed Online Judge deployed on Vercel, facilitating problem-solving, user management, and code compilation.",
+        img: "/codemonks.png",
+        iconLists: ["/mongo.svg","/zod.svg","/dock.svg","/ts.svg","/next.svg","/re.svg", "/tail.svg"],
+        link: "https://online-judge-eight.vercel.app/",
+    },
+    {
+        id: 2,
         title: "React JS Blog Application",
         des: "Developed a dynamic React Blog App featuring CRUD operations, search functionality and routing using React Router.",
         img: "/p1.png",
@@ -79,7 +87,7 @@ export const projects = [
         link: "https://github.com/Pratham9497/Learn_React_Project",
     },
     {
-        id: 2,
+        id: 3,
         title: "Real Estate Price Predictor Website",
         des: "Designed a high-performing website using cross-validation and advanced regression models to predict house prices based on location, square footage, and BHK, achieving an exceptional 84% accuracy.",
         img: "/p2.png",
@@ -87,22 +95,13 @@ export const projects = [
         link: "https://github.com/Pratham9497/Real_Estate_Price_Predictor",
     },
     {
-        id: 3,
+        id: 4,
         title: "Todos List",
         des: "Led the development of a feature-rich Todos List website with CRUD functionality using Django framework.",
         img: "/p3.png",
         iconLists: ["/html5.svg", "/bootstrap.svg", "/django.svg"],
         link: "https://github.com/Pratham9497/Todos-List",
     },
-    {
-        id: 4,
-        title: "Tic Tac Toe",
-        des: "Created a simple basic Tic Tac Toe game to explore React states.",
-        img: "/p4.png",
-        iconLists: ["/re.svg", "/css.svg"],
-        link: "https://github.com/Pratham9497/TicTacToe",
-    },
-    
 ];
 
 export const achievements = [
@@ -181,25 +180,11 @@ export const workExperience = [
         thumbnail: "/exp1.svg",
     },
     {
-        id: 2,
-        title: "Web Development Intern - CipherByte Technologies",
-        desc: "Developed responsive portfolio website and a user-friendly e-commerce website using Next.js.",
-        className: "md:col-span-2", // change to md:col-span-2
-        thumbnail: "/exp2.svg",
-    },
-    {
         id: 3,
         title: "Problem Setting Contributor - CodeChef",
         desc: "Designed and Developed challenging algorithmic problems for competitive programming contests.",
         className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/exp3.svg",
-    },
-    {
-        id: 4,
-        title: "Community Lead - Web and Coding Club",
-        desc: "Conducted various DSA & CP sessions and coding events to enhance Coding culture ",
-        className: "md:col-span-2",
-        thumbnail: "/exp4.svg",
     },
 ];
 
